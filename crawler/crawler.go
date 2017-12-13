@@ -1,19 +1,20 @@
 package crawler
 
 import (
-	"akarki15/terraform-args/models"
 	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/akarki15/terraform-args/models"
 )
 
 var (
 	dirs = []string{
-		"/Users/aashishkarki/dev/proj/terraform/website/source/docs/providers/aws/d",
-		//"/Users/aashishkarki/dev/proj/terraform/website/source/docs/providers/aws/r",
+		"testfiles/d",
+		// "testfiles/r",
 	}
 )
 
