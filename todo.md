@@ -15,6 +15,8 @@
 
   - [ ] Use riceboxes to save the doc 
 - [ ] Vim plugin
+      - [ ] Figure out proper regex to trigger autocompletion
+      - [ ] Figure out regex
 - [ ] Sublime plugin
 - [ ] Atom plugin
 - [ ] More Providers
