@@ -13,7 +13,8 @@ import (
 
 var (
 	dirs = []string{
-		"testfiles/d",
+		"/Users/aashishkarki/Desktop/terraform-provider-aws-master/website/docs/d",
+		//"testfiles/d",
 		// "testfiles/r",
 	}
 )

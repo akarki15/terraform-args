@@ -8,7 +8,7 @@ import (
 )
 
 func Test_parseDir(t *testing.T) {
-	_, _ = parseDir("testfiles/d")
+	_, _ = parseDir("/Users/aashishkarki/Desktop/terraform-provider-aws-master/website/docs/d")
 }
 
 func Test_parseDir_full(t *testing.T) {
