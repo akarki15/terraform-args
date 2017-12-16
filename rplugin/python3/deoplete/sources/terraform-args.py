@@ -1,7 +1,3 @@
-# Copyright (c) 2017 Filip Szymański. All rights reserved.
-# Use of this source code is governed by an MIT license that can be
-# found in the LICENSE file.
-
 import re
 
 from .base import Base
@@ -12,7 +8,7 @@ class Source(Base):
 
         self.__pattern = re.compile(r'data |resource ')
 
-        self.filetypes = ['gitcommit', 'markdown', 'tf']
+        self.filetypes = ['tf']
         self.min_pattern_length = 3
         self.mark = '[tf-args]'
         self.matchers = ['matcher_length', 'matcher_full_fuzzy']
