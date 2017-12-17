@@ -1,0 +1,416 @@
+[
+  {
+    "Name": ": aws_billing_service_account",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_vpn_gateway",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_elastic_beanstalk_solution_stack",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_elb",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_caller_identity",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ebs_snapshot_ids",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_account_alias",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_rds_cluster",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_user",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ami",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_availability_zone",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_partition",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_elb_hosted_zone_id",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": efs_mount_target",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_vpc_peering_connection",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_route_table",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_db_instance",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_eip",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_vpc",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_instance_profile",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_vpc_endpoint",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_region",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ecr_repository",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ssm_parameter",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_cloudformation_stack",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_network_interface",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_availability_zones",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_lb_target_group",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ebs_snapshot",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_role",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_subnet_ids",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_elasticache_cluster",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_kinesis_stream",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_route53_zone",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_instance",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_lb",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_cloudtrail_service_account",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_kms_ciphertext",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_policy_document",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_autoscaling_groups",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_s3_bucket_object",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_instances",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_kms_secret",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_subnet",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_canonical_user_id",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_acm_certificate",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": efs_file_system",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_server_certificate",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ebs_volume",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_kms_alias",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_elasticache_replication_group",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_s3_bucket",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_iam_group",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_nat_gateway",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ip_ranges",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_security_group",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ami_ids",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ecs_cluster",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_vpc_endpoint_service",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ecs_task_definition",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_ecs_container_definition",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_prefix-list",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_lb_listener",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_internet_gateway",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_elb_service_account",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_db_snapshot",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_dynamodb_table",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_redshift_service_account",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  },
+  {
+    "Name": ": aws_sns_topic",
+    "Description": "TODO",
+    "ArgsStr": "TODO",
+    "Args": null
+  }
+]
