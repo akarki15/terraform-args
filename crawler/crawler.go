@@ -12,14 +12,35 @@ import (
 )
 
 var (
-	dirs = []string{
+	dDirs = []string{
+		//"/Users/aashishkarki/Desktop/terraform-provider-aws-master/website/docs/d",
+		"testfiles/d",
+	}
+	rDir = []string{
 		"/Users/aashishkarki/Desktop/terraform-provider-aws-master/website/docs/d",
 		//"testfiles/d",
-		// "testfiles/r",
 	}
 )
 
-func parseDir(dirpath string) (models.Commands, error) {
+func parseRCommand(content string) (models.Command, error) {
+	splits := strings.Split(content, "page_title:")
+	if len(splits) <= 1 {
+		return models.Command{}, errors.New("page title : splits isn't big enough!")
+	}
+	secondSplit := strings.Split(splits[1], "\n")
+	if len(splits) == 0 {
+		return models.Command{}, errors.New("first split should be title!")
+	}
+	strCommand := string(secondSplit[0])
+	strCommand = strCommand[5 : len(strCommand)-1] // more madness
+	return models.Command{
+		Name:        strCommand,
+		Description: "TODO",
+		ArgsStr:     "TODO",
+	}, nil
+}
+
+func parseDir(dirpath string, docType string) (models.Commands, error) {
 	dir, err := os.Open(dirpath)
 	if err != nil {
 		return nil, err
@@ -33,9 +54,18 @@ func parseDir(dirpath string) (models.Commands, error) {
 	for _, file := range files {
 		filename := filepath.Join(dirpath, file.Name())
 		doc := parseFile(filename)
-		command, err := parseCommand(doc)
-		if err != nil {
-			return nil, err
+		var command models.Command
+		var err error
+		if docType == "d" {
+			command, err = parseCommand(doc)
+			if err != nil {
+				return nil, err
+			}
+		} else if docType == "r" {
+			command, err = parseRCommand(doc)
+			if err != nil {
+				return nil, err
+			}
 		}
 		commands = append(commands, command)
 	}
